@@ -74,3 +74,5 @@ PlatformService/obj/Debug/net5.0/project.razor.json
 PlatformService/obj/Debug/net5.0/ref/PlatformService.dll
 PlatformService/obj/Debug/net5.0/staticwebassets/PlatformService.StaticWebAssets.Manifest.cache
 PlatformService/obj/Debug/net5.0/staticwebassets/PlatformService.StaticWebAssets.xml
+.vscode/launch.json
+.vscode/tasks.json
