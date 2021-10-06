@@ -134,3 +134,4 @@ CommandsService/bin/Debug/net5.0/ref/CommandsService.dll
 CommandsService/Controllers/PlatformsController.cs
 .gitignore
 CommandsService/obj/Debug/net5.0/project.razor.json
+PlatformService/bin/Debug/net5.0/appsettings.Production.json
