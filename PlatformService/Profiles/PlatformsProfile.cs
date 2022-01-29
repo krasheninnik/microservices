@@ -15,6 +15,8 @@ namespace PlatformService.Profiles
             // Source -> Target
             CreateMap<Platform, PlatformReadDto>();
             CreateMap<PlatformCreateDto, Platform>();
+            CreateMap<Platform, PlatformPublishedDto>();
+            CreateMap<PlatformReadDto, PlatformPublishedDto>();
         }
     }
 }
