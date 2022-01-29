@@ -25,7 +25,7 @@ namespace CommandsService.Data
             _context.Commands.Add(command);
         }
 
-        public void CreatePlatfrom(Platform plat)
+        public void CreatePlatform(Platform plat)
         {
             if (plat == null)
             {
@@ -62,6 +62,11 @@ namespace CommandsService.Data
         public bool SaveChanges()
         {
             return (_context.SaveChanges() >= 0);
+        }
+
+        public bool ExternalPlatformExist(int externalPlatformId)
+        {
+            return _context.Platforms.Any(p => p.ExternalID == externalPlatformId);
         }
     }
 }
